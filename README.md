@@ -14,5 +14,7 @@
 それを避ける方向のベクトルを計算し逃げます。
 
 
+https://user-images.githubusercontent.com/81568941/188129234-dec00ad4-2a1c-4e2d-925e-194cc9956330.mp4
+
 ## Special Thanks
 このプロジェクトはhekomiさんの[UnityECSBoidsSimulation](https://github.com/hecomi/UnityECSBoidsSimulation)をCloneし改変したものです。hekomiさんには申し訳ないですが、ForkしていないのでFork表示がされていません。ありがとうございます。
