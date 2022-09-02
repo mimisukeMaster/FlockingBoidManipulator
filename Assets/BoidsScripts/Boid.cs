@@ -206,7 +206,6 @@ namespace Boid.OOP
                 {
                     simulation.detectedCount++;
                     DetectedObstacle = true;
-                    Debug.Log("++");
                 }
 
                 // Wallと違って六面から(反対側,一つの軸に二つよける対象がある)ではないので計算量はXYZ軸一回づつのみで済む
@@ -248,7 +247,6 @@ namespace Boid.OOP
                 /// TODO
                 /// 一定時間たったら諦めさせる処理
 
-                Debug.Log("REACHED!");
                 movingToTaget = false;
             }
         }

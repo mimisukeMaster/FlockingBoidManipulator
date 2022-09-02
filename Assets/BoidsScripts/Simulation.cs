@@ -105,7 +105,6 @@ namespace Boid.OOP
 
         void ResetBoidsDetectedObstacleFlag(List<Boid> boids)
         {
-            Debug.Log("群れさせる");
             foreach (Boid boid in boids)
             {
                 boid.DetectedObstacle = false;
@@ -113,7 +112,6 @@ namespace Boid.OOP
         }
         void ResetBoidsMovingToTagetFlag(List<Boid> boids)
         {
-            Debug.Log("餌はもうつきた");
             foreach (Boid boid in boids)
             {
                 boid.movingToTaget = false;
